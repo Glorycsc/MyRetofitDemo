@@ -1,0 +1,1 @@
+include ':javatest', ':animator', ':lib', ':mediaplayer', ':onlinemusic', ':postjson', ':matisse'

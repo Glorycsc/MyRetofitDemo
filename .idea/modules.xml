@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MyRetofitDemo.iml" filepath="$PROJECT_DIR$/MyRetofitDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animator/animator.iml" filepath="$PROJECT_DIR$/animator/animator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javatest/javatest.iml" filepath="$PROJECT_DIR$/javatest/javatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matisse/matisse.iml" filepath="$PROJECT_DIR$/matisse/matisse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mediaplayer/mediaplayer.iml" filepath="$PROJECT_DIR$/mediaplayer/mediaplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/onlinemusic/onlinemusic.iml" filepath="$PROJECT_DIR$/onlinemusic/onlinemusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/postjson/postjson.iml" filepath="$PROJECT_DIR$/postjson/postjson.iml" />
+    </modules>
+  </component>
+</project>
