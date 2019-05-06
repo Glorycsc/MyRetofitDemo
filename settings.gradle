@@ -1,1 +1,1 @@
-include ':javatest', ':animator', ':lib', ':mediaplayer', ':onlinemusic', ':postjson', ':matisse'
+include ':javatest', ':animator', ':lib', ':mediaplayer', ':onlinemusic', ':postjson', ':matisse',':leakcanary', ':okdownload', ':webview', ':bannerlayout', ':mybanner', ':viewtest', ':adapterviewinscrollview', ':slidingdelete', ':banner_doubleitem_white', ':toucheventtest', ':retrofittest', ':flexbox_demo', ':coordinatelayoutdemo', ':banner_viewpager_circulation', ':compress_images', ':db_demo'

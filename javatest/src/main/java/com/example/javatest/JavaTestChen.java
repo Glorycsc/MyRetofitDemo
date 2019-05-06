@@ -13,6 +13,8 @@ public class JavaTestChen {
         current = System.currentTimeMillis();
         int delay = (int)
                 (mLoadingMinTime - (current - last));
+//        ArrayList ali = new ArrayList()
+//                ali.add();
 
     }
 }

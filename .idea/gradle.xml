@@ -8,13 +8,29 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/adapterviewinscrollview" />
             <option value="$PROJECT_DIR$/animator" />
+            <option value="$PROJECT_DIR$/banner_doubleitem_white" />
+            <option value="$PROJECT_DIR$/banner_viewpager_circulation" />
+            <option value="$PROJECT_DIR$/bannerlayout" />
+            <option value="$PROJECT_DIR$/compress_images" />
+            <option value="$PROJECT_DIR$/coordinatelayoutdemo" />
+            <option value="$PROJECT_DIR$/db_demo" />
+            <option value="$PROJECT_DIR$/flexbox_demo" />
             <option value="$PROJECT_DIR$/javatest" />
+            <option value="$PROJECT_DIR$/leakcanary" />
             <option value="$PROJECT_DIR$/lib" />
             <option value="$PROJECT_DIR$/matisse" />
             <option value="$PROJECT_DIR$/mediaplayer" />
+            <option value="$PROJECT_DIR$/mybanner" />
+            <option value="$PROJECT_DIR$/okdownload" />
             <option value="$PROJECT_DIR$/onlinemusic" />
             <option value="$PROJECT_DIR$/postjson" />
+            <option value="$PROJECT_DIR$/retrofittest" />
+            <option value="$PROJECT_DIR$/slidingdelete" />
+            <option value="$PROJECT_DIR$/toucheventtest" />
+            <option value="$PROJECT_DIR$/viewtest" />
+            <option value="$PROJECT_DIR$/webview" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

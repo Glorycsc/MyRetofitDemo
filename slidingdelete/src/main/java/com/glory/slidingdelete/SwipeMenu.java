@@ -11,6 +11,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Scroller;
+import android.widget.Toast;
 
 /**
  * Created by Administrator on 2017/6/27.
@@ -19,22 +20,30 @@ import android.widget.Scroller;
 
 public class SwipeMenu extends ViewGroup {
 
+    private Context context;
     private int downX, moveX, moved;
     private Scroller scroller = new Scroller(getContext());
     private boolean haveShowRight = false;
     public static SwipeMenu swipeMenu;
 
+    private LeftClickListener listener;
+
     public SwipeMenu(Context context) {
         super(context);
+        this.context = context;
+
     }
 
     public SwipeMenu(Context context, AttributeSet attrs) {
+
         super(context, attrs);
+        this.context = context;
     }
 
     //继承自viewGroup的不用绑定布局
     public SwipeMenu(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
+        this.context = context;
     }
 
 
@@ -73,6 +82,8 @@ public class SwipeMenu extends ViewGroup {
         }
     }
 
+    boolean isSwip = false;
+
     @Override
     public boolean onTouchEvent(MotionEvent ev) {
         if (!scroller.isFinished()) {
@@ -83,6 +94,7 @@ public class SwipeMenu extends ViewGroup {
                 downX = (int) ev.getRawX();
                 break;
             case MotionEvent.ACTION_MOVE:
+                isSwip = true;
                 //移动的时候的跟随动作
                 if (swipeMenu != null && swipeMenu == this && haveShowRight) {
                     //判断滑动的距离
@@ -107,6 +119,12 @@ public class SwipeMenu extends ViewGroup {
                 break;
             case MotionEvent.ACTION_CANCEL:
             case MotionEvent.ACTION_UP:
+                if (!isSwip) {
+                    Toast.makeText(context, "clicking ", Toast.LENGTH_SHORT).show();
+                    //跳转到详情页面
+                    this.listener.onClick();
+                    break;
+                }
                 //判断一下滑动的方向
                 if (swipeMenu != null) {
                     closeMenu();
@@ -149,7 +167,7 @@ public class SwipeMenu extends ViewGroup {
 //        int margin = ((MarginLayoutParams) child.getLayoutParams()).topMargin +
 //                ((MarginLayoutParams) child.getLayoutParams()).bottomMargin;
         //setmeasuredDimension是只设置了值,而没有mode
-        setMeasuredDimension(width, getChildAt(0).getMeasuredHeight() );
+        setMeasuredDimension(width, getChildAt(0).getMeasuredHeight());
     }
 
     //而这个就是将子view放置到什么位置
@@ -164,5 +182,13 @@ public class SwipeMenu extends ViewGroup {
                 child.layout(r, t, r + child.getMeasuredWidth(), b);
             }
         }
+    }
+
+    public interface LeftClickListener {
+        void onClick();
+    }
+
+    public void setLeftClickListener(LeftClickListener listener) {
+        this.listener = listener;
     }
 }

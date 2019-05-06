@@ -75,6 +75,6 @@ public class MainActivity extends AppCompatActivity {
         //不能直接向decorView中添加view
 //        View rootView  =  getWindow().getDecorView();
 //        rootView.add
-
+//
     }
 }

@@ -3,13 +3,29 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MyRetofitDemo.iml" filepath="$PROJECT_DIR$/MyRetofitDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/adapterviewinscrollview/adapterviewinscrollview.iml" filepath="$PROJECT_DIR$/adapterviewinscrollview/adapterviewinscrollview.iml" />
       <module fileurl="file://$PROJECT_DIR$/animator/animator.iml" filepath="$PROJECT_DIR$/animator/animator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner_doubleitem_white/banner_doubleitem_white.iml" filepath="$PROJECT_DIR$/banner_doubleitem_white/banner_doubleitem_white.iml" />
+      <module fileurl="file://$PROJECT_DIR$/banner_viewpager_circulation/banner_viewpager_circulation.iml" filepath="$PROJECT_DIR$/banner_viewpager_circulation/banner_viewpager_circulation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bannerlayout/bannerlayout.iml" filepath="$PROJECT_DIR$/bannerlayout/bannerlayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/compress_images/compress_images.iml" filepath="$PROJECT_DIR$/compress_images/compress_images.iml" />
+      <module fileurl="file://$PROJECT_DIR$/coordinatelayoutdemo/coordinatelayoutdemo.iml" filepath="$PROJECT_DIR$/coordinatelayoutdemo/coordinatelayoutdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/db_demo/db_demo.iml" filepath="$PROJECT_DIR$/db_demo/db_demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/flexbox_demo/flexbox_demo.iml" filepath="$PROJECT_DIR$/flexbox_demo/flexbox_demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javatest/javatest.iml" filepath="$PROJECT_DIR$/javatest/javatest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/leakcanary/leakcanary.iml" filepath="$PROJECT_DIR$/leakcanary/leakcanary.iml" />
       <module fileurl="file://$PROJECT_DIR$/lib/lib.iml" filepath="$PROJECT_DIR$/lib/lib.iml" />
       <module fileurl="file://$PROJECT_DIR$/matisse/matisse.iml" filepath="$PROJECT_DIR$/matisse/matisse.iml" />
       <module fileurl="file://$PROJECT_DIR$/mediaplayer/mediaplayer.iml" filepath="$PROJECT_DIR$/mediaplayer/mediaplayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybanner/mybanner.iml" filepath="$PROJECT_DIR$/mybanner/mybanner.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okdownload/okdownload.iml" filepath="$PROJECT_DIR$/okdownload/okdownload.iml" />
       <module fileurl="file://$PROJECT_DIR$/onlinemusic/onlinemusic.iml" filepath="$PROJECT_DIR$/onlinemusic/onlinemusic.iml" />
       <module fileurl="file://$PROJECT_DIR$/postjson/postjson.iml" filepath="$PROJECT_DIR$/postjson/postjson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/retrofittest/retrofittest.iml" filepath="$PROJECT_DIR$/retrofittest/retrofittest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingdelete/slidingdelete.iml" filepath="$PROJECT_DIR$/slidingdelete/slidingdelete.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toucheventtest/toucheventtest.iml" filepath="$PROJECT_DIR$/toucheventtest/toucheventtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/viewtest/viewtest.iml" filepath="$PROJECT_DIR$/viewtest/viewtest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webview/webview.iml" filepath="$PROJECT_DIR$/webview/webview.iml" />
     </modules>
   </component>
 </project>

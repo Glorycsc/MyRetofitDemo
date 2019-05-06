@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.List;
 
@@ -39,12 +40,33 @@ public class MyListAdapter extends BaseAdapter {
     }
 
     @Override
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         convertView = inflater.inflate(R.layout.layout_recycler_item, null);
+        SwipeMenu swipeMenu = convertView.findViewById(R.id.swipe);
         TextView left = convertView.findViewById(R.id.left);
         TextView right = convertView.findViewById(R.id.right);
         left.setText(listData.get(position));
+        right.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(context, "删除" + position, Toast.LENGTH_SHORT).show();
+            }
+        });
+        swipeMenu.setLeftClickListener(new SwipeMenu.LeftClickListener() {
+            @Override
+            public void onClick() {
+                Toast.makeText(context, "{}}}}}}}}}}}}}}}}}}}}", Toast.LENGTH_SHORT).show();
+            }
+        });
+//        left.setOnLongClickListener(new View.OnLongClickListener() {
+//                                        @Override
+//                                        public boolean onLongClick(View v) {
+//                                            Toast.makeText(context, "点击了乐乐" + position, Toast.LENGTH_SHORT).show();
+//                                            return false;
+//                                        }
+//                                    }
+//        );
         return convertView;
     }
 

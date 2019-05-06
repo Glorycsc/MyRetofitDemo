@@ -4,10 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.MotionEvent;
-import android.view.View;
-import android.widget.AdapterView;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,6 +28,13 @@ public class MainActivity extends AppCompatActivity {
         listData.add("yige");
         listData.add("two");
         listData.add("three");
+        listData.add("three");
+        listData.add("three");
+        listData.add("three");
+        listData.add("three");
+        listData.add("free");
+        listData.add("free");
+        listData.add("free");
         listData.add("free");
         listData.add("free");
         listData.add("free");
@@ -40,12 +44,12 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.listview);
         listView.setAdapter(new MyListAdapter(listData, this));
 
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this,"点解了"+position, Toast.LENGTH_SHORT).show();
-            }
-        });
+//        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+//            @Override
+//            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+//                Toast.makeText(MainActivity.this,"点解了"+position, Toast.LENGTH_SHORT).show();
+//            }
+//        });
     }
 
     @Override
