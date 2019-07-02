@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/MyRetofitDemo.iml" filepath="$PROJECT_DIR$/.idea/MyRetofitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyRetofitDemo.iml" filepath="$PROJECT_DIR$/MyRetofitDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/adapterviewinscrollview/adapterviewinscrollview.iml" filepath="$PROJECT_DIR$/adapterviewinscrollview/adapterviewinscrollview.iml" />
       <module fileurl="file://$PROJECT_DIR$/animator/animator.iml" filepath="$PROJECT_DIR$/animator/animator.iml" />
